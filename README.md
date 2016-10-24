@@ -6,7 +6,7 @@
 
 ```
 web:
-  build: dockercmsimages/base
+  image: dockercmsimages/base
   ports:
     - 80:80
   volumes:
